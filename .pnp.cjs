@@ -39,6 +39,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rails/activestorage", "npm:6.1.4"],
             ["@rails/ujs", "npm:6.1.4"],
             ["@rails/webpacker", "npm:5.4.3"],
+            ["bootstrap", "npm:3.4.1"],
+            ["jquery", "npm:3.5.1"],
             ["turbolinks", "npm:5.2.0"],
             ["webpack", "virtual:7134696c27ea632b2e6bed2118606d5c7187f7f0c6bf7065fd12c40fbaff2a671e53dc127c83f4f3ca0d916b61ecdd1ad746a84da3e41f15ccd02f4345af116b#npm:4.46.0"],
             ["webpack-cli", "virtual:7134696c27ea632b2e6bed2118606d5c7187f7f0c6bf7065fd12c40fbaff2a671e53dc127c83f4f3ca0d916b61ecdd1ad746a84da3e41f15ccd02f4345af116b#npm:3.3.12"],
@@ -3265,6 +3267,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/boolbase-npm-1.0.0-965fe9af6d-3e25c80ef6.zip/node_modules/boolbase/",
           "packageDependencies": [
             ["boolbase", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["bootstrap", [
+        ["npm:3.4.1", {
+          "packageLocation": "./.yarn/cache/bootstrap-npm-3.4.1-c63015f4c4-5742035e8c.zip/node_modules/bootstrap/",
+          "packageDependencies": [
+            ["bootstrap", "npm:3.4.1"]
           ],
           "linkType": "HARD",
         }]
@@ -6786,6 +6797,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jquery", [
+        ["npm:3.5.1", {
+          "packageLocation": "./.yarn/cache/jquery-npm-3.5.1-965b25dbd8-813047b852.zip/node_modules/jquery/",
+          "packageDependencies": [
+            ["jquery", "npm:3.5.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["js-tokens", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",
@@ -9849,6 +9869,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rails/activestorage", "npm:6.1.4"],
             ["@rails/ujs", "npm:6.1.4"],
             ["@rails/webpacker", "npm:5.4.3"],
+            ["bootstrap", "npm:3.4.1"],
+            ["jquery", "npm:3.5.1"],
             ["turbolinks", "npm:5.2.0"],
             ["webpack", "virtual:7134696c27ea632b2e6bed2118606d5c7187f7f0c6bf7065fd12c40fbaff2a671e53dc127c83f4f3ca0d916b61ecdd1ad746a84da3e41f15ccd02f4345af116b#npm:4.46.0"],
             ["webpack-cli", "virtual:7134696c27ea632b2e6bed2118606d5c7187f7f0c6bf7065fd12c40fbaff2a671e53dc127c83f4f3ca0d916b61ecdd1ad746a84da3e41f15ccd02f4345af116b#npm:3.3.12"],

@@ -1337,7 +1337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/webpacker@npm:5.4.3":
+"@rails/webpacker@npm:^5.4.3":
   version: 5.4.3
   resolution: "@rails/webpacker@npm:5.4.3"
   dependencies:
@@ -2152,6 +2152,13 @@ __metadata:
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
   checksum: 3e25c80ef626c3a3487c73dbfc70ac322ec830666c9ad915d11b701142fab25ec1e63eff2c450c74347acfd2de854ccde865cd79ef4db1683f7c7b046ea43bb0
+  languageName: node
+  linkType: hard
+
+"bootstrap@npm:3.4.1":
+  version: 3.4.1
+  resolution: "bootstrap@npm:3.4.1"
+  checksum: 5742035e8c541cd525780542771e7d56f63e5d4b2d902427bf182d3383e74a17c9074b6809f50d7f3de0585377e673339628b97cfdcde597ad69ecb1d2b562a6
   languageName: node
   linkType: hard
 
@@ -5247,6 +5254,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jquery@npm:3.5.1":
+  version: 3.5.1
+  resolution: "jquery@npm:3.5.1"
+  checksum: 813047b852511ca1ecfaa7b2568aba1d7270a92e5c74962b308792a401adf041869a3b2a6858b0b7a02f6684947fb93171e40cbb4460831977a937b40b0e15ce
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -7981,7 +7995,9 @@ __metadata:
     "@rails/actioncable": ^6.0.0
     "@rails/activestorage": ^6.0.0
     "@rails/ujs": ^6.0.0
-    "@rails/webpacker": 5.4.3
+    "@rails/webpacker": ^5.4.3
+    bootstrap: 3.4.1
+    jquery: 3.5.1
     turbolinks: ^5.2.0
     webpack: ^4.46.0
     webpack-cli: ^3.3.12
